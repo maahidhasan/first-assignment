@@ -1,3 +1,29 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    padding: 0px;
+}
+
+/* button */
+.btn {
+    padding: 16px 11px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
+/* hero */
+.header {
+    background-image: url(images/hero.jpg);
+    height: 320px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    color: whitesmoke;
+}
+
+.hero p {
+    color: whitesmoke;
 }
