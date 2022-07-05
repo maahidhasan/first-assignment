@@ -1,6 +1,14 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.section {
+    margin: 0px;
     padding: 0px;
+    border: 0px;
 }
 
 /* button */
@@ -15,10 +23,16 @@ body {
 /* hero */
 .header {
     background-image: url(images/hero.jpg);
-    height: 320px;
+    height: 696px;
     width: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
+
+
+
+
 
 .hero h1 {
     color: whitesmoke;
