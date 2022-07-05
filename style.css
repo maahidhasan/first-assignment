@@ -1,15 +1,10 @@
 body {
     font-family: 'PT Sans', sans-serif;
     margin: 0;
-    padding: 0;
-    border: 0;
+
 }
 
-.section {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
+
 
 /* button */
 .btn {
@@ -23,21 +18,46 @@ body {
 /* hero */
 .header {
     background-image: url(images/hero.jpg);
-    height: 696px;
+    height: 800px;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: -20px;
 }
 
+.hero {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    height: 100%;
+
+}
 
 
 
 
 .hero h1 {
     color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    width: 826px;
+    left: 29%;
+    top: 174px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
 }
 
 .hero p {
     color: whitesmoke;
+
+    text-align: center;
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 32%;
+    top: 352px;
+
+    font-weight: 400;
+    font-size: 21px;
 }
