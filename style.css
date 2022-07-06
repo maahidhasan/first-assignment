@@ -212,6 +212,10 @@ input[type=submit] {
     border-radius: 4px;
 }
 
+.new {
+    margin-top: 40%;
+}
+
 /* .center-left {
     margin: auto;
     width: 40%;
@@ -228,3 +232,46 @@ input[type=submit] {
 
 
 } */
+.one-third {
+
+    width: 25%;
+    margin-top: 20%;
+    margin-left: 35px;
+
+
+    float: left;
+}
+
+.one-third p {
+    width: 80%;
+    padding-left: 20px;
+
+}
+
+.one-third img {
+    margin-top: 40px;
+    padding-left: 20px;
+
+
+}
+
+.one-third h1 {
+    padding-left: 20px;
+
+}
+
+.full {
+    margin-left: 18%;
+}
+
+.c1 {
+    background-color: #4f9da63b;
+}
+
+.c2 {
+    background-color: #ff59594b;
+}
+
+.c3 {
+    background-color: #FFF4D6;
+}
